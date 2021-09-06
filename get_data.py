@@ -2,9 +2,9 @@ import tweepy, json, xlsxwriter
 
 try:
     access_token = '723857363392851969-43F1DgxrLdiEfaMn5KubWt1VI7FkRHa'
-    access_token_secret = 'gmCABAHGF07eZ5cibLcYcNZ1xWO2GLpIZta4sdzfJRfd2'
+    access_token_secret = ''
     consumer_key = 'kjLXsYD27YLPR4r5KWP4GeHLT'
-    consumer_secret = 'UqzQyqnf8u6TPVGPQo9pwJZJHzs63GXmfkjpP9nrfgW0ZqASrD'
+    consumer_secret = ''
 
     auth= tweepy.OAuthHandler(consumer_key,consumer_secret)
     auth.set_access_token(access_token,access_token_secret)
